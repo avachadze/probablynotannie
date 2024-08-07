@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Contenido from './Contenido';
+
 function Header() {
     const [dark, setDark] = React.useState(false);
 
@@ -17,6 +18,8 @@ function Header() {
                         <span class="switch__indicator"></span>
                         <span class="switch__decoration"></span>
                     </label>
+                    
+
                 </label>
             </header>
             <Routes>
